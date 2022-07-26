@@ -17,7 +17,7 @@ class FaviconForm(forms.ModelForm):
 #         exclude = []
 #         field_classes = {
 #             'image': FileField,
-#         }
+#         } 
 
 # @admin.register(Favicon)
 # class TemplatesAdmin(admin.ModelAdmin):
