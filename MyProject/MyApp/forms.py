@@ -6,7 +6,8 @@ class FaviconForm(forms.ModelForm):
 
 	class Meta:
 		model = Favicon
-		fields = ['name', 'icon_Img']
+		fields = ['icon_Image']
+		
 
 # this was a (failed) attempt at including svg files for upload. I will keep trying.       
 # from django.forms import ModelForm, FileField
